@@ -13,11 +13,18 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
-
+/* 
 .font-estetik {
     font-family: 'Sacramento', cursive !important;
     color: #ffffff !important;
+} */
+
+
+.font-estetik {
+    font-family: 'Alana', cursive !important;
+    color: #ffffff !important;
 }
+
 
 .cropper {
     width: 14rem;
