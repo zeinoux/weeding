@@ -35,8 +35,23 @@ body::-webkit-scrollbar {
 }
 
 .cropper>img {
-    display: inline;
-    margin: 0 auto;
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+
+.cropper1 {
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 80%; */
+}
+
+.cropper1>img {
+    display: block;
+    margin: auto;
     height: auto;
     width: 100%;
 }
