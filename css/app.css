@@ -112,3 +112,52 @@ body::-webkit-scrollbar {
         opacity: 0;
     }
 }
+
+
+
+/*Mobile*/
+@media (max-width:768px) {
+    .flower-1 {
+      height: 15%;
+    }
+    .flower-2-left{
+      left: -20px;
+      height: 200px;
+      bottom: 0;
+    }
+    .flower-2-right{
+      right: -20px;
+      height: 200px;
+      bottom: 0;
+    }
+    .flower-3-top{
+      height: 200px;
+      bottom: 40px;
+      top: 5%
+    }
+    .flower-4-bottom{
+      height: 10%;
+      bottom: 10%;
+    }
+    .flower-bukutamu-right{
+      height: 25%;
+    }
+    .flower-bukutamu-left{
+      height: 20%;
+    }
+  }
+  
+  /*Desktop*/
+  @media (min-width: 768px) {
+    .flower-1 {
+      height: 30%;
+    }
+    .flower-2-left{
+      height: 60%;
+      left: -30px;
+    }
+    .flower-2-right{
+      height: 60%;
+      right: -30px;
+    }
+  }
