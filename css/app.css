@@ -153,11 +153,13 @@ body::-webkit-scrollbar {
       height: 30%;
     }
     .flower-2-left{
-      height: 60%;
+      height: 30%;
       left: -30px;
+      bottom: 0;
     }
     .flower-2-right{
-      height: 60%;
+      height: 30%;
       right: -30px;
+      bottom: 0;
     }
   }
